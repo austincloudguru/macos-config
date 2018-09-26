@@ -1,0 +1,30 @@
+---
+- name: Get current account's username.
+  shell: whoami
+  register: homebrew_whoami
+  changed_when: false
+  always_run: true
+
+# Clone dotfiles
+- name: Clone the dotfiles directory.
+  git:
+    repo: "{{ dotfiles_repo }}"
+    version: master
+    dest: "/Users/{{ homebrew_whoami.stdout }}/macbook-ansible/dotfiles"
+    update: no
+    accept_hostkey: yes
+    depth: 1
+
+- name: Run the dotfiles bootstrap.sh
+  command: "/Users/{{ homebrew_whoami.stdout }}/macbook-ansible/dotfiles/bootstrap.sh -f"
+
+- name: Install Pip Libraries
+  pip:
+    name: "{{ item }}"
+    extra_args: "--ignore-installed"
+  with_items: "{{ pip_items }}"
+
+- name: Install Ruby Gems
+  gem:
+    name: "{{ item }}"
+  with_items: "{{ gem_items }}"

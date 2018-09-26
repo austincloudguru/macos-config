@@ -9,3 +9,9 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - alfred
   - iterm2
+
+pip_items:
+  - virtualenvwrapper
+
+gem_items:
+  - tmuxinator

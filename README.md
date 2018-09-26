@@ -18,6 +18,6 @@ Commands:
      sudo easy_install pip
      sudo pip install ansible
      git clone https://github.com/AustinCloudGuru/mac-playbook
-     cd mac-playbook
+     cd macos-config
      ansible-galaxy install -r requirements.yml
      ansible-playbook playbook.yml -i inventory -K
