@@ -13,7 +13,7 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - alfred
   - iterm2
-  - chrome
+  - google-chrome
   - spark
   - omnifocus
   - fantastical
