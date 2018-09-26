@@ -56,3 +56,6 @@
 
 - name: Update Homebrew Cask
   shell: brew cask upgrade
+
+- name: Set Wallpaper
+  shell: osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/mark.honomichl/Documents/wallpaper/rick-archer.png"
