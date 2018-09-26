@@ -5,6 +5,10 @@ homebrew_taps:
 homebrew_installed_packages:
   - python2
   - python3
+  - dockutil
+  - tmux
+  - jq
+  - wget
 
 homebrew_cask_apps:
   - alfred
