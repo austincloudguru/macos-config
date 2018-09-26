@@ -1,0 +1,9 @@
+---
+- hosts: all
+  connection: local
+
+  var_files:
+    - config.yml
+
+  roles:
+    - geerlingguy.homebrew

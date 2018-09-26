@@ -1,0 +1,11 @@
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_installed_packages:
+  - python2
+  - python3
+
+homebrew_cask_apps:
+  - alfred
+  - iterm2
