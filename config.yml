@@ -14,7 +14,6 @@ homebrew_cask_apps:
   - alfred
   - iterm2
   - google-chrome
-  - spark
   - omnifocus
   - fantastical
 
@@ -37,6 +36,7 @@ dockitems_to_remove:
   - FaceTime
   - iBooks
   - Calendar
+  - News
 
 dockitems_to_persist:
   - name: Launchpad
