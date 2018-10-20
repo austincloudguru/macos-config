@@ -9,7 +9,7 @@
 - name: Clone the dotfiles directory.
   git:
     repo: "{{ dotfiles_repo }}"
-    version: master
+    version: "{{ dotfiles_branch }}"
     dest: "/Users/{{ homebrew_whoami.stdout }}/macbook-ansible/dotfiles"
     update: no
     accept_hostkey: yes
