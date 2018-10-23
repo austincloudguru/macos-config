@@ -3,7 +3,7 @@
   shell: whoami
   register: homebrew_whoami
   changed_when: false
-  always_run: true
+  check_mode: no
 
 # Clone dotfiles
 - name: Clone the dotfiles directory.
