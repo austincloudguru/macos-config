@@ -48,9 +48,6 @@
 - name: Resize the Dock
   shell: defaults write com.apple.dock tilesize -int 50
 
-- name: Restart the Dock
-  shell: killall Dock
-
 - name: Update Homebrew
   shell: brew upgrade
 
@@ -59,3 +56,6 @@
 
 - name: Set Wallpaper
   shell: osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/{{ homebrew_whoami.stdout }}/Documents/wallpaper/{{ wallpaper_file }}"'
+
+- name: Restart the Dock
+  shell: killall Dock
