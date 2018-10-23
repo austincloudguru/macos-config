@@ -11,7 +11,7 @@
     repo: "{{ dotfiles_repo }}"
     version: "{{ dotfiles_branch }}"
     dest: "/Users/{{ homebrew_whoami.stdout }}/mac-ansible/dotfiles"
-    update: no
+    update: yes
     accept_hostkey: yes
     depth: 1
 
