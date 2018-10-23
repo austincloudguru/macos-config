@@ -10,13 +10,13 @@
   git:
     repo: "{{ dotfiles_repo }}"
     version: "{{ dotfiles_branch }}"
-    dest: "/Users/{{ homebrew_whoami.stdout }}/macbook-ansible/dotfiles"
+    dest: "/Users/{{ homebrew_whoami.stdout }}/mac-ansible/dotfiles"
     update: no
     accept_hostkey: yes
     depth: 1
 
 - name: Run the dotfiles bootstrap.sh
-  command: "/Users/{{ homebrew_whoami.stdout }}/macbook-ansible/dotfiles/bootstrap.sh -f"
+  command: "/Users/{{ homebrew_whoami.stdout }}/mac-ansible/dotfiles/bootstrap.sh -f"
 
 - name: Install Pip Libraries
   pip:
