@@ -40,6 +40,22 @@ homebrew_cask_apps:
   - intellij-idea
   - google-cloud-sdk
   - keybase
+  - parallels
+
+mas_installed_apps:
+  - { id: 975937182, name: "Fantastical 2" }
+  - { id: 803453959, name: "Slack" }
+  - { id: 1176895641, name: "Spark" }
+  - { id: 1091189122, name: "Bear"}
+  - { id: 451907568, name: "Paprika Recipe Manager" }
+  - { id: 407963104, name: "Pixelmator" }
+  - { id: 715768417, name: "Microsoft Remote Desktop" }
+  - { id: 905384638, name: "Filebot" }
+  - { id: 441258766, name: "Magnet" }
+  - { id: 405399194, name: "Kindle" }
+  - { id: 1094748271, name: "Full Contact" }
+  - { id: 572491815, name: "Textastic" }
+  - { id: 497799835, name: "Xcode" }
 
 pip_items:
   - virtualenvwrapper
