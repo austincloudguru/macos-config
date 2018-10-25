@@ -55,6 +55,7 @@ mas_installed_apps:
   - { id: 405399194, name: "Kindle" }
   - { id: 1094748271, name: "Full Contact" }
   - { id: 572491815, name: "Textastic" }
+  - { id: 1437130425, name: "Jolt of Caffiene" }
   - { id: 497799835, name: "Xcode" }
 
 pip_items:
