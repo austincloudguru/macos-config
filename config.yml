@@ -1,3 +1,5 @@
+dotfiles_branch: rework
+
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
