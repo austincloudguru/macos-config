@@ -59,6 +59,7 @@ mas_installed_apps:
   - { id: 1437130425, name: "Jolt of Caffiene" }
   - { id: 497799835, name: "Xcode" }
   - { id: 1055511498, name: "Day One" }
+  - { id: 736189492, name: "Notability" }
 
 pip_items:
   - virtualenvwrapper
