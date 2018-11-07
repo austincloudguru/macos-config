@@ -43,6 +43,7 @@ homebrew_cask_apps:
   - google-cloud-sdk
   - keybase
   - parallels
+  - ykman
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }
