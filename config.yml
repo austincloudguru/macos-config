@@ -60,7 +60,6 @@ mas_installed_apps:
   - { id: 497799835, name: "Xcode" }
   - { id: 1055511498, name: "Day One" }
   - { id: 736189492, name: "Notability" }
-  - { id: 528726140, name: "Mountain" }
 
 pip_items:
   - virtualenvwrapper
