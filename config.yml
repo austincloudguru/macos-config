@@ -6,20 +6,19 @@ homebrew_installed_packages:
   - python2
   - python3
   - dockutil
-  - tmux
   - jq
   - wget
   - gpg
   - packer
   - vault
   - terraform
+  - pinentry-mac
 
 homebrew_cask_apps:
   - alfred
   - iterm2
   - google-chrome
   - omnifocus
-  - fantastical
   - 1password
   - 1password-cli
   - bartender
@@ -33,14 +32,18 @@ homebrew_cask_apps:
   - duet
   - ubersicht
   - dash
-  - odrive
   - java
   - handbrake
   - vagrant
   - intellij-idea
+  - pycharm
+  - datagrip
   - google-cloud-sdk
   - keybase
   - parallels
+  - google-drive-file-stream
+  - boxcryptor
+  - freedom
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }
@@ -49,21 +52,20 @@ mas_installed_apps:
   - { id: 1091189122, name: "Bear"}
   - { id: 451907568, name: "Paprika Recipe Manager" }
   - { id: 407963104, name: "Pixelmator" }
-  - { id: 715768417, name: "Microsoft Remote Desktop" }
   - { id: 905384638, name: "Filebot" }
   - { id: 441258766, name: "Magnet" }
   - { id: 405399194, name: "Kindle" }
-  - { id: 1094748271, name: "Full Contact" }
+  - { id: 1094748271, name: "Contacts+" }
   - { id: 572491815, name: "Textastic" }
-  - { id: 1437130425, name: "Jolt of Caffiene" }
   - { id: 497799835, name: "Xcode" }
   - { id: 1055511498, name: "Day One" }
+  - { id: 1369500258, name: "Anesidora" }
+  - { id: 777233759, name: "Focus - Time Manager" }
 
 pip_items:
   - virtualenvwrapper
 
-gem_items:
-  - tmuxinator
+gem_items: []
 
 dockitems_to_remove:
   - Siri
