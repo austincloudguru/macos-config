@@ -20,14 +20,19 @@
 
 - name: Install Pip Libraries
   pip:
-    name: "{{ item }}"
+    name: "{{ pip_items }}"
     extra_args: "--ignore-installed"
-  with_items: "{{ pip_items }}"
 
 - name: Install Ruby Gems
   gem:
     name: "{{ item }}"
   with_items: "{{ gem_items }}"
+
+- name: Install Node Packages
+  npm:
+    name: "{{ item }}"
+    global: yes
+  with_items: "{{ npm_items }}"
 
 - name: Remove all crap from Dock
   shell: dockutil --remove '{{ item }}'
