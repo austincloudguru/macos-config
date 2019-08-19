@@ -13,6 +13,8 @@ homebrew_installed_packages:
   - vault
   - terraform
   - pinentry-mac
+  - aws-okta
+  - node
 
 homebrew_cask_apps:
   - alfred
@@ -44,6 +46,10 @@ homebrew_cask_apps:
   - google-drive-file-stream
   - boxcryptor
   - freedom
+  - microsoft-office
+  - omnioutliner
+  - steam
+  - notion
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }
@@ -61,11 +67,16 @@ mas_installed_apps:
   - { id: 1055511498, name: "Day One" }
   - { id: 1369500258, name: "Anesidora" }
   - { id: 777233759, name: "Focus - Time Manager" }
+  - { id: 528726140, name: "Mountain" }
+  - { id: 1198319098, name: "MarsEdit" }
 
 pip_items:
   - virtualenvwrapper
 
 gem_items: []
+
+npm_items:
+  - serverless
 
 dockitems_to_remove:
   - Siri
