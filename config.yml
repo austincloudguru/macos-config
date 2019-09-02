@@ -62,16 +62,16 @@ dockitems_to_persist:
     path: "/Applications/Fantastical 2.app"
     pos: 5
   - name: Messages
-    path: /Applications/Messages.app
+    path: /System/Applications/Messages.app
     pos: 6
-  - name: iTunes
-    path: /Applications/iTunes.app
+  - name: Music
+    path: /System/Applications/Music.app
     pos: 7
   - name: App Store
-    path: "/Applications/App Store.app"
+    path: "/System/Applications/App Store.app"
     pos: 8
   - name: System Preferences
-    path: "/Applications/System Preferences.app"
+    path: "/System/Applications/System Preferences.app"
     pos: 9
 
 wallpaper_file: blue_chick.jpg
