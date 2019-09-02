@@ -43,7 +43,8 @@ dockitems_to_remove:
   - iBooks
   - Calendar
   - News
-  - Google Chrome
+  - Podcasts
+  - TV
 
 dockitems_to_persist:
   - name: Launchpad
@@ -56,7 +57,7 @@ dockitems_to_persist:
     path: /Applications/iTerm.app
     pos: 3
   - name: OmniFocus
-    path: "/Applications/OmniFocus.app"
+    path: /Applications/OmniFocus.app
     pos: 4
   - name: Fantastical 2
     path: "/Applications/Fantastical 2.app"
