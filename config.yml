@@ -9,66 +9,18 @@ homebrew_installed_packages:
   - jq
   - wget
   - gpg
-  - packer
-  - vault
-  - terraform
   - pinentry-mac
-  - aws-okta
   - node
 
 homebrew_cask_apps:
   - alfred
   - iterm2
-  - google-chrome
   - omnifocus
   - 1password
-  - 1password-cli
-  - bartender
-  - toggl
-  - logos
-  - docker
-  - firefox
-  - aws-vault
-  - vlc
-  - calibre
-  - duet
-  - ubersicht
-  - dash
-  - java
-  - handbrake
-  - vagrant
-  - intellij-idea
-  - pycharm
-  - datagrip
-  - google-cloud-sdk
-  - keybase
-  - parallels
-  - google-drive-file-stream
-  - boxcryptor
-  - freedom
-  - microsoft-office
-  - omnioutliner
-  - steam
-  - notion
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }
-  - { id: 803453959, name: "Slack" }
-  - { id: 1176895641, name: "Spark" }
-  - { id: 1091189122, name: "Bear"}
-  - { id: 451907568, name: "Paprika Recipe Manager" }
-  - { id: 407963104, name: "Pixelmator" }
-  - { id: 905384638, name: "Filebot" }
   - { id: 441258766, name: "Magnet" }
-  - { id: 405399194, name: "Kindle" }
-  - { id: 1094748271, name: "Contacts+" }
-  - { id: 572491815, name: "Textastic" }
-  - { id: 497799835, name: "Xcode" }
-  - { id: 1055511498, name: "Day One" }
-  - { id: 1369500258, name: "Anesidora" }
-  - { id: 777233759, name: "Focus - Time Manager" }
-  - { id: 528726140, name: "Mountain" }
-  - { id: 1198319098, name: "MarsEdit" }
 
 pip_items:
   - virtualenvwrapper
@@ -121,3 +73,5 @@ dockitems_to_persist:
   - name: System Preferences
     path: "/Applications/System Preferences.app"
     pos: 9
+
+wallpaper_file: blue_chick.jpg
