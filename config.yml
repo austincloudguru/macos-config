@@ -17,10 +17,38 @@ homebrew_cask_apps:
   - iterm2
   - omnifocus
   - 1password
+  - google-chrome
+  - 1password-cli
+  - bartender
+  - toggl
+  - docker
+  - firefox
+  - aws-vault
+  - vlc
+  - ubersicht
+  - dash
+  - java
+  - vagrant
+  - pycharm
+  - keybase
+  - google-drive-file-stream
+  - boxcryptor
+  - freedom
+  - microsoft-office
+  - omnioutliner
+  - skype-for-business
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }
   - { id: 441258766, name: "Magnet" }
+  - { id: 803453959, name: "Slack" }
+  - { id: 1091189122, name: "Bear"}
+  - { id: 1094748271, name: "Contacts+" }
+  - { id: 572491815, name: "Textastic" }
+  - { id: 1369500258, name: "Anesidora" }
+  - { id: 777233759, name: "Focus - Time Manager" }
+  - { id: 528726140, name: "Mountain" }
+  - { id: 1198319098, name: "MarsEdit" }
 
 pip_items:
   - virtualenvwrapper
@@ -74,4 +102,4 @@ dockitems_to_persist:
     path: "/Applications/System Preferences.app"
     pos: 9
 
-wallpaper_file: blue_chick.jpg
+wallpaper_file: janky.jpg
