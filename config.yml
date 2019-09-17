@@ -37,6 +37,7 @@ homebrew_cask_apps:
   - microsoft-office
   - omnioutliner
   - skype-for-business
+  - zoom
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }
@@ -49,6 +50,7 @@ mas_installed_apps:
   - { id: 777233759, name: "Focus - Time Manager" }
   - { id: 528726140, name: "Mountain" }
   - { id: 1198319098, name: "MarsEdit" }
+  - { id: 1055511498, name: "Day One" }
 
 pip_items:
   - virtualenvwrapper
