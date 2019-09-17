@@ -11,6 +11,7 @@ homebrew_installed_packages:
   - gpg
   - pinentry-mac
   - node
+  - aws-okta
 
 homebrew_cask_apps:
   - alfred
