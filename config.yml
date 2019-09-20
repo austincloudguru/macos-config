@@ -12,6 +12,11 @@ homebrew_installed_packages:
   - pinentry-mac
   - node
   - aws-okta
+  - terraform
+  - packer
+  - vault
+  - nomad
+  - tflint
 
 homebrew_cask_apps:
   - alfred
@@ -39,6 +44,8 @@ homebrew_cask_apps:
   - omnioutliner
   - skype-for-business
   - zoom
+  - parallels
+  - dropbox
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }
