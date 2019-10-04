@@ -59,6 +59,7 @@ mas_installed_apps:
   - { id: 528726140, name: "Mountain" }
   - { id: 1198319098, name: "MarsEdit" }
   - { id: 1055511498, name: "Day One" }
+  - { id: 412946682, name: "SubnetCalc" }
 
 pip_items:
   - virtualenvwrapper
