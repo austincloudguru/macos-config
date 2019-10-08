@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - vault
   - nomad
   - tflint
+  - tmux
 
 homebrew_cask_apps:
   - alfred
@@ -45,7 +46,6 @@ homebrew_cask_apps:
   - skype-for-business
   - zoom
   - parallels
-  - dropbox
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }
