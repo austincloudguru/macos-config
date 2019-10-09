@@ -59,8 +59,8 @@
 - name: Update Homebrew Cask
   shell: brew cask upgrade
 
-- name: Set Wallpaper
-  shell: osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/{{ homebrew_whoami.stdout }}/Documents/wallpaper/{{ wallpaper_file }}"'
-
+#- name: Set Wallpaper
+  #shell: osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/{{ homebrew_whoami.stdout }}/Documents/wallpaper/{{ wallpaper_file }}"'
+#
 - name: Restart the Dock
   shell: killall Dock

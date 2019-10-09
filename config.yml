@@ -48,7 +48,6 @@ homebrew_cask_apps:
   - parallels
 
 mas_installed_apps:
-  - { id: 975937182, name: "Fantastical 2" }
   - { id: 441258766, name: "Magnet" }
   - { id: 803453959, name: "Slack" }
   - { id: 1091189122, name: "Bear"}
@@ -82,7 +81,8 @@ dockitems_to_remove:
   - iBooks
   - Calendar
   - News
-  - Google Chrome
+  - Podcasts
+  - TV
 
 dockitems_to_persist:
   - name: Launchpad
@@ -97,20 +97,17 @@ dockitems_to_persist:
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
     pos: 4
-  - name: Fantastical 2
-    path: "/Applications/Fantastical 2.app"
-    pos: 5
   - name: Messages
-    path: /Applications/Messages.app
+    path: /System/Applications/Messages.app
+    pos: 5
+  - name: Music
+    path: /System/Applications/Music.app
     pos: 6
-  - name: iTunes
-    path: /Applications/iTunes.app
-    pos: 7
   - name: App Store
     path: "/Applications/App Store.app"
-    pos: 8
+    pos: 7
   - name: System Preferences
     path: "/Applications/System Preferences.app"
-    pos: 9
+    pos: 8
 
 wallpaper_file: janky.jpg
