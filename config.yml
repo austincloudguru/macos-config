@@ -61,6 +61,7 @@ mas_installed_apps:
   - { id: 1198319098, name: "MarsEdit" }
   - { id: 1055511498, name: "Day One" }
   - { id: 412946682, name: "SubnetCalc" }
+  - { id: 1295203466, name: "MS Remote Desktop" }
 
 pip_items:
   - virtualenvwrapper
