@@ -48,6 +48,8 @@ homebrew_cask_apps:
   - zoom
   - parallels
   - intellij-idea
+  - calibre
+  - send-to-kindle
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
@@ -62,6 +64,7 @@ mas_installed_apps:
   - { id: 1055511498, name: "Day One" }
   - { id: 412946682, name: "SubnetCalc" }
   - { id: 1295203466, name: "MS Remote Desktop" }
+  - { id: 975937182, name: "Fantastical 2" }
 
 pip_items:
   - virtualenvwrapper
