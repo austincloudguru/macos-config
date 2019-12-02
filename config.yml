@@ -47,9 +47,9 @@ homebrew_cask_apps:
   - skype-for-business
   - zoom
   - parallels
-  - intellij-idea
   - calibre
   - send-to-kindle
+  - visual-studio-code
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
