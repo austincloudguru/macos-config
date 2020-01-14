@@ -39,7 +39,6 @@ homebrew_cask_apps:
   - vagrant
   - pycharm
   - keybase
-  - google-drive-file-stream
   - boxcryptor
   - freedom
   - microsoft-office
@@ -50,7 +49,7 @@ homebrew_cask_apps:
   - calibre
   - send-to-kindle
   - logos
-  - intellij
+  - intellij-idea
   - clion
 
 mas_installed_apps:
