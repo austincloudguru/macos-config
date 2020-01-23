@@ -21,6 +21,7 @@
 - name: Install Pip Libraries
   pip:
     name: "{{ pip_items }}"
+    executable: pip3
     extra_args: "--ignore-installed"
 
 - name: Install Ruby Gems
