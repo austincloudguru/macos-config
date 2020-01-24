@@ -1,72 +1,68 @@
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - versent/homebrew-taps
 
 homebrew_installed_packages:
   - python2
   - python3
+  - node
+  - rbenv
   - dockutil
-  - jq
   - wget
   - gpg
   - pinentry-mac
-  - node
-  - aws-okta
-  - terraform
-  - packer
-  - vault
-  - nomad
-  - tflint
   - tmux
-  - graphviz
+  - jq
+  - saml2aws
+  - awscli
 
 homebrew_cask_apps:
+  - firefox
   - alfred
   - iterm2
-  - omnifocus
-  - 1password
-  - google-chrome
-  - 1password-cli
   - bartender
-  - toggl
-  - docker
-  - firefox
-  - aws-vault
-  - vlc
-  - ubersicht
-  - dash
-  - java
-  - vagrant
-  - pycharm
-  - keybase
+  - 1password
+  - 1password-cli
+  - microsoft-office
+  - setapp
   - boxcryptor
   - freedom
-  - microsoft-office
-  - omnioutliner
-  - skype-for-business
-  - zoom
-  - parallels
-  - calibre
-  - send-to-kindle
-  - logos
+  - keybase
+  - textexpander
+  - keyboard-maestro
+  - toggl
+  - docker
+  - vlc
+  - duet
+  - ubersicht
+  - java
   - intellij-idea
+  - pycharm
   - clion
+  - send-to-kindle
+  - calibre
+  - google-chrome
+  - logos
+  - vagrant
+  - omnioutliner
+  - omnifocus
+  - dash
+  - vmware-fusion
+  - zoom
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
-  - { id: 803453959, name: "Slack" }
+  - { id: 975937182, name: "Fantastical 2" }
   - { id: 1091189122, name: "Bear"}
-  - { id: 1094748271, name: "Contacts+" }
   - { id: 572491815, name: "Textastic" }
+  - { id: 803453959, name: "Slack" }
+  - { id: 1055511498, name: "Day One" }
   - { id: 1369500258, name: "Anesidora" }
   - { id: 777233759, name: "Focus - Time Manager" }
-  - { id: 528726140, name: "Mountain" }
-  - { id: 1198319098, name: "MarsEdit" }
-  - { id: 1055511498, name: "Day One" }
+  - { id: 1295203466, name: "Remote Desktop 10" }
   - { id: 412946682, name: "SubnetCalc" }
-  - { id: 1295203466, name: "MS Remote Desktop" }
-  - { id: 975937182, name: "Fantastical 2" }
-  - { id: 905384638, name: "filebot" }
+  - { id: 497799835, name: "Xcode" }
 
 pip_items:
   - virtualenvwrapper
