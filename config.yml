@@ -16,6 +16,7 @@ homebrew_installed_packages:
   - jq
   - saml2aws
   - awscli
+  - tflint
 
 homebrew_cask_apps:
   - firefox
