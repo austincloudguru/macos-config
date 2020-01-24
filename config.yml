@@ -17,6 +17,9 @@ homebrew_installed_packages:
   - saml2aws
   - awscli
   - tflint
+  - terraform
+  - packer
+  - vault
 
 homebrew_cask_apps:
   - firefox
@@ -50,7 +53,7 @@ homebrew_cask_apps:
   - omnifocus
   - dash
   - vmware-fusion
-  - zoom
+  - zoomus
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
