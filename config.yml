@@ -20,6 +20,8 @@ homebrew_installed_packages:
   - terraform
   - packer
   - vault
+  - mp3val
+  - mp3splt
 
 homebrew_cask_apps:
   - firefox
