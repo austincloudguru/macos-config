@@ -4,7 +4,7 @@ homebrew_taps:
   - versent/homebrew-taps
 
 homebrew_installed_packages:
-  - python2
+  - python@2
   - python3
   - node
   - rbenv
@@ -17,11 +17,19 @@ homebrew_installed_packages:
   - saml2aws
   - awscli
   - tflint
-  - terraform
   - packer
   - vault
   - mp3val
   - mp3splt
+  - mosh
+  - tfenv
+  - terraform-docs
+  - pre-commit
+  - gawk
+  - cfn-lint
+  - go
+  - gimme-aws-creds
+  - groovy
 
 homebrew_cask_apps:
   - firefox
