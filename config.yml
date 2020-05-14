@@ -64,9 +64,14 @@ homebrew_cask_apps:
   - dash
   - vmware-fusion
   - zoomus
+  - agenda
+  - expressvpn
+  - dropbox
+  - pomodone
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
+  - { id: 585829637, name: "Todoist" }
   - { id: 975937182, name: "Fantastical 2" }
   - { id: 1091189122, name: "Bear"}
   - { id: 572491815, name: "Textastic" }
@@ -105,6 +110,7 @@ dockitems_to_remove:
   - Podcasts
   - TV
   - Safari
+  - OmniFocus
 
 dockitems_to_persist:
   - name: Launchpad
@@ -116,8 +122,8 @@ dockitems_to_persist:
   - name: iTerm
     path: /Applications/iTerm.app
     pos: 3
-  - name: OmniFocus
-    path: "/Applications/OmniFocus.app"
+  - name: Todoist
+    path: "/Applications/Todoist.app"
     pos: 4
   - name: Messages
     path: /System/Applications/Messages.app
@@ -132,4 +138,4 @@ dockitems_to_persist:
     path: "/Applications/System Preferences.app"
     pos: 8
 
-wallpaper_file: janky.jpg
+wallpaper_file: cross.jpg
