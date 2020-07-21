@@ -2,9 +2,9 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - versent/homebrew-taps
+  - aws/tap
 
 homebrew_installed_packages:
-  - python@2
   - python3
   - node
   - rbenv
@@ -29,7 +29,11 @@ homebrew_installed_packages:
   - cfn-lint
   - go
   - gimme-aws-creds
+  - aws-iam-authenticator
+  - aws-sam-cli
+  - ffmpeg
   - groovy
+  - mp4v2
 
 homebrew_cask_apps:
   - firefox
@@ -52,8 +56,6 @@ homebrew_cask_apps:
   - ubersicht
   - java
   - intellij-idea
-  - pycharm
-  - clion
   - send-to-kindle
   - calibre
   - google-chrome
@@ -64,26 +66,29 @@ homebrew_cask_apps:
   - dash
   - vmware-fusion
   - zoomus
-  - agenda
   - expressvpn
   - dropbox
-  - pomodone
+  - protonmail-bridge
+  - ringcentral
+  - notion
+  - itsycal
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
-  - { id: 585829637, name: "Todoist" }
   - { id: 975937182, name: "Fantastical 2" }
   - { id: 1091189122, name: "Bear"}
+  - { id: 451907568, name: "Paprika Recipe Manager" }
+  - { id: 407963104, name: "Pixelmator" }
+  - { id: 905384638, name: "Filebot" }
+  - { id: 405399194, name: "Kindle" }
   - { id: 572491815, name: "Textastic" }
   - { id: 803453959, name: "Slack" }
-  - { id: 1055511498, name: "Day One" }
   - { id: 1369500258, name: "Anesidora" }
   - { id: 777233759, name: "Focus - Time Manager" }
   - { id: 1295203466, name: "Remote Desktop 10" }
-  - { id: 412946682, name: "SubnetCalc" }
   - { id: 1094748271, name: "Contacts+" }
-  - { id: 1290358394, name: "Cardhop" }
-  - { id: 1480793815, name: "GoodNotes" }
+  - { id: 1444383602, name: "GoodNotes" }
+  - { id: 1387167765, name: "Diarly" }
   - { id: 497799835, name: "Xcode" }
 
 pip_items:
@@ -91,8 +96,8 @@ pip_items:
 
 gem_items: []
 
-npm_items:
-  - serverless
+npm_items: []
+  
 
 dockitems_to_remove:
   - Siri
@@ -110,7 +115,6 @@ dockitems_to_remove:
   - Podcasts
   - TV
   - Safari
-  - OmniFocus
 
 dockitems_to_persist:
   - name: Launchpad
@@ -122,8 +126,8 @@ dockitems_to_persist:
   - name: iTerm
     path: /Applications/iTerm.app
     pos: 3
-  - name: Todoist
-    path: "/Applications/Todoist.app"
+  - name: OmniFocus
+    path: "/Applications/OmniFocus.app"
     pos: 4
   - name: Messages
     path: /System/Applications/Messages.app
