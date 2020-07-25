@@ -71,6 +71,7 @@ homebrew_cask_apps:
   - protonmail-bridge
   - ringcentral
   - devonthink
+  - sf-symbols
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
