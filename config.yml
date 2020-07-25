@@ -70,8 +70,7 @@ homebrew_cask_apps:
   - dropbox
   - protonmail-bridge
   - ringcentral
-  - notion
-  - itsycal
+  - devonthink
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
@@ -89,6 +88,9 @@ mas_installed_apps:
   - { id: 1094748271, name: "Contacts+" }
   - { id: 1444383602, name: "GoodNotes" }
   - { id: 1387167765, name: "Diarly" }
+  - { id: 1435957248, name: "Drafts" }
+  - { id: 1514795049, name: "OmSavee" }
+  - { id: 1439967473, name: "Okta Extension" }
   - { id: 497799835, name: "Xcode" }
 
 pip_items:
@@ -114,32 +116,38 @@ dockitems_to_remove:
   - News
   - Podcasts
   - TV
-  - Safari
+  - Firefox
 
 dockitems_to_persist:
   - name: Launchpad
     path: "/Applications/Launchpad.app"
     pos: 1
-  - name: Firefox
-    path: /Applications/Firefox.app
+  - name: Safari
+    path: /Applications/Safari.app
     pos: 2
   - name: iTerm
     path: /Applications/iTerm.app
     pos: 3
+  - name: Drafts
+    path: /Applications/Drafts.app
+    pos: 4
+  - name: DEVONthink 3
+    path: "/Applications/DEVONthink 3.app"
+    pos: 5
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
-    pos: 4
+    pos: 6
   - name: Messages
     path: /System/Applications/Messages.app
-    pos: 5
+    pos: 7
   - name: Music
     path: /System/Applications/Music.app
-    pos: 6
+    pos: 8
   - name: App Store
     path: "/Applications/App Store.app"
-    pos: 7
+    pos: 9
   - name: System Preferences
     path: "/Applications/System Preferences.app"
-    pos: 8
+    pos: 10
 
 wallpaper_file: cross.jpg
