@@ -1,17 +1,10 @@
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
-  - versent/homebrew-taps
-  - aws/tap
 
 homebrew_installed_packages:
   - python3
-  - rbenv
   - dockutil
-  - wget
-  - gpg
-  - pinentry-mac
-  - tmux
 
 homebrew_cask_apps:
   - alfred
