@@ -1,94 +1,19 @@
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
-  - versent/homebrew-taps
-  - aws/tap
 
 homebrew_installed_packages:
   - python3
-  - node
-  - rbenv
   - dockutil
-  - wget
-  - gpg
-  - pinentry-mac
-  - tmux
-  - jq
-  - saml2aws
-  - awscli
-  - tflint
-  - packer
-  - vault
-  - mp3val
-  - mp3splt
-  - mosh
-  - tfenv
-  - terraform-docs
-  - pre-commit
-  - gawk
-  - cfn-lint
-  - go
-  - gimme-aws-creds
-  - aws-iam-authenticator
-  - aws-sam-cli
-  - ffmpeg
-  - groovy
-  - mp4v2
 
 homebrew_cask_apps:
-  - firefox
   - alfred
   - iterm2
-  - bartender
   - 1password
-  - 1password-cli
-  - microsoft-office
-  - setapp
-  - boxcryptor
-  - freedom
-  - keybase
-  - textexpander
-  - keyboard-maestro
-  - toggl
-  - docker
-  - vlc
-  - duet
-  - ubersicht
-  - java
-  - intellij-idea
-  - send-to-kindle
-  - calibre
-  - google-chrome
-  - logos
-  - vagrant
-  - omnioutliner
   - omnifocus
-  - dash
-  - vmware-fusion
-  - zoomus
-  - expressvpn
-  - dropbox
-  - protonmail-bridge
-  - ringcentral
-  - notion
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
-  - { id: 975937182, name: "Fantastical 2" }
-  - { id: 1091189122, name: "Bear"}
-  - { id: 451907568, name: "Paprika Recipe Manager" }
-  - { id: 407963104, name: "Pixelmator" }
-  - { id: 905384638, name: "Filebot" }
-  - { id: 405399194, name: "Kindle" }
-  - { id: 572491815, name: "Textastic" }
-  - { id: 803453959, name: "Slack" }
-  - { id: 1369500258, name: "Anesidora" }
-  - { id: 777233759, name: "Focus - Time Manager" }
-  - { id: 1295203466, name: "Remote Desktop 10" }
-  - { id: 1094748271, name: "Contacts+" }
-  - { id: 1444383602, name: "GoodNotes" }
-  - { id: 1387167765, name: "Diarly" }
-  - { id: 497799835, name: "Xcode" }
 
 pip_items:
   - virtualenvwrapper
@@ -119,8 +44,8 @@ dockitems_to_persist:
   - name: Launchpad
     path: "/Applications/Launchpad.app"
     pos: 1
-  - name: Firefox
-    path: /Applications/Firefox.app
+  - name: Safari
+    path: /Applications/Safari.app
     pos: 2
   - name: iTerm
     path: /Applications/iTerm.app
