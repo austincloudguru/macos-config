@@ -62,6 +62,7 @@
 
 - name: Set Wallpaper
   shell: osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/{{ homebrew_whoami.stdout }}/Documents/wallpaper/{{ wallpaper_file }}"'
+  when: wallpaper_file is defined
 
 - name: Restart the Dock
   shell: killall Dock
