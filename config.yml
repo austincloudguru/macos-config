@@ -5,6 +5,8 @@ homebrew_taps:
 homebrew_installed_packages:
   - python3
   - dockutil
+  - gpg
+  - pinentry-mac
 
 homebrew_cask_apps:
   - alfred

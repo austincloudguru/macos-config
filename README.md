@@ -10,7 +10,7 @@ The easiest way to install is to follow the following steps:
 5. Create the mac-ansible directory `mkdir mac-ansible`
 6. Change directory to mac-ansible `cd mac-ansible`
 7. Clone the Repository: `git clone https://github.com/AustinCloudGuru/macos-config`
-8. Change Directories into the repo: `cd mac-playbook`
+8. Change Directories into the repo: `cd macos-config`
 9. Update the requirements file: `ansible-galaxy install -r requirements.yml`
 10. Run the osascript command to account for sandboxing ` osascript -e 'tell application "Finder"' -e 'set _b to bounds of window of desktop' -e 'end tell'`
 11. Run the Playbook: `ansible-playbook playbook.yml -i inventory -K`
