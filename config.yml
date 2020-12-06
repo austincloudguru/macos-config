@@ -1,21 +1,88 @@
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-drivers
+  - versent/homebrew-taps
+  - aws/tap
+  - hashicorp/tap
 
 homebrew_installed_packages:
   - python3
   - dockutil
   - gpg
   - pinentry-mac
+  - tmux
+  - saml2aws
+  - mosh
+  - awscli
+  - wget
+  - jq
+  - tflint
+  - vault
+  - packer
+  - tfenv
+  - terraform-docs
+  - pre-commit
+  - gawk
+  - cfn-lint
+  - aws-sam-cli
+  - ffmpeg
+  - mp4v2
+  - mp3val
+  - mp3splt
+  - rbenv
+  - openjdk
 
 homebrew_cask_apps:
   - alfred
   - iterm2
   - 1password
   - omnifocus
+  - dropbox
+  - boxcryptor
+  - bartender
+  - 1password-cli
+  - microsoft-office
+  - freedom
+  - textexpander
+  - keyboard-maestro
+  - toggl-track
+  - vlc
+  - logos
+  - dash
+  - vmware-fusion
+  - devonthink
+  - zoom
+  - calibre
+  - google-chrome
+  - firefox
+  - protonmail-bridge
+  - intellij-idea
+  - expressvpn
+  - docker
+  - numi
+  - elgato-stream-deck
+  - logitech-options
+  - logitech-g-hub
+  - keybase
+
+homebrew_cask_uninstalled_apps:
+  - launchbar
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
+  - { id: 975937182, name: "Fantastical 2" }
+  - { id: 803453959, name: "Slack" }
+  - { id: 777233759, name: "Focus - Time Manager" }
+  - { id: 1295203466, name: "Remote Desktop 10" }
+  - { id: 1094748271, name: "Contacts+" }
+  - { id: 1387167765, name: "Diarly" }
+  - { id: 1435957248, name: "Drafts" }
+  - { id: 1514795049, name: "OmSavee" }
+  - { id: 1439967473, name: "Okta Extension" }
+  - { id: 1529448980, name: "Reeder 5" }
+  - { id: 967805235, name: "Paste - Clipboard Manager" }
+  - { id: 1055511498, name: "Day One" }  
 
 pip_items:
   - virtualenvwrapper
@@ -52,20 +119,25 @@ dockitems_to_persist:
   - name: iTerm
     path: /Applications/iTerm.app
     pos: 3
+  - name: Drafts
+    path: "/Applications/Drafts.app"
+    pos: 4
+  - name: DEVONthink 3
+    path: "/Applications/DEVONthink 3.app"
+    pos: 5
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
-    pos: 4
+    pos: 6
   - name: Messages
     path: /System/Applications/Messages.app
-    pos: 5
+    pos: 7
   - name: Music
     path: /System/Applications/Music.app
-    pos: 6
+    pos: 8
   - name: App Store
     path: "/Applications/App Store.app"
-    pos: 7
+    pos: 9
   - name: System Preferences
     path: "/Applications/System Preferences.app"
-    pos: 8
+    pos: 10
 
-#wallpaper_file: cross.jpg
