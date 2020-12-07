@@ -32,6 +32,12 @@ homebrew_installed_packages:
   - mp3splt
   - rbenv
   - openjdk
+  - gimme-aws-creds
+  - node
+  - go
+  - aws-iam-authenticator
+  - groovy
+
 
 homebrew_cask_apps:
   - alfred
@@ -65,6 +71,14 @@ homebrew_cask_apps:
   - logitech-options
   - logitech-g-hub
   - keybase
+  - send-to-kindle
+  - omnioutliner
+  - ringcentral
+  - sf-symbols
+  - scrivener
+  - datagrip
+  - cardhop
+  - podcastmenu
 
 homebrew_cask_uninstalled_apps:
   - launchbar
@@ -83,6 +97,19 @@ mas_installed_apps:
   - { id: 1529448980, name: "Reeder 5" }
   - { id: 967805235, name: "Paste - Clipboard Manager" }
   - { id: 1055511498, name: "Day One" }  
+  - { id: 451907568, name: "Paprika Recipe Manager" }
+  - { id: 407963104, name: "Pixelmator" }
+  - { id: 905384638, name: "Filebot" }
+  - { id: 405399194, name: "Kindle" }
+  - { id: 572491815, name: "Textastic" }
+  - { id: 1444383602, name: "GoodNotes" }
+  - { id: 1437130425, name: "Jolt of Caffeine" }
+  - { id: 1035237815, name: "Commander One Pro" }
+  - { id: 429449079, name: "Patterns" }
+  - { id: 890031187, name: "Marked 2" }
+  - { id: 1354318707, name: "Core Tunnel" }
+#  - { id: 497799835, name: "Xcode" }
+
 
 pip_items:
   - virtualenvwrapper
