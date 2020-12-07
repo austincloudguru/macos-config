@@ -77,7 +77,6 @@ homebrew_cask_apps:
   - sf-symbols
   - scrivener
   - datagrip
-  - cardhop
   - podcastmenu
 
 homebrew_cask_uninstalled_apps:
@@ -108,6 +107,7 @@ mas_installed_apps:
   - { id: 429449079, name: "Patterns" }
   - { id: 890031187, name: "Marked 2" }
   - { id: 1354318707, name: "Core Tunnel" }
+  - { id: 1290358394, name: "Cardhop" }
 #  - { id: 497799835, name: "Xcode" }
 
 
@@ -156,7 +156,7 @@ dockitems_to_persist:
     path: "/Applications/OmniFocus.app"
     pos: 6
   - name: Messages
-    path: /System/Applications/Messages.app
+    path: "/System/Applications/Messages.app"
     pos: 7
   - name: Music
     path: /System/Applications/Music.app
