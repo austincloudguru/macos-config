@@ -108,6 +108,7 @@ mas_installed_apps:
   - { id: 890031187, name: "Marked 2" }
   - { id: 1354318707, name: "Core Tunnel" }
   - { id: 1290358394, name: "Cardhop" }
+  - { id: 1481302432, name: "Instapaper Save" }
 #  - { id: 497799835, name: "Xcode" }
 
 
