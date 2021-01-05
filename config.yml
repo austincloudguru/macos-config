@@ -78,6 +78,7 @@ homebrew_cask_apps:
   - scrivener
   - datagrip
   - podcastmenu
+  - ubersicht
 
 homebrew_cask_uninstalled_apps:
   - launchbar
