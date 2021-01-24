@@ -82,6 +82,7 @@ homebrew_cask_apps:
 
 homebrew_cask_uninstalled_apps:
   - launchbar
+  - brave-browser
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
@@ -129,7 +130,6 @@ dockitems_to_remove:
   - Reminders
   - Maps
   - Photos
-  - Messages
   - FaceTime
   - iBooks
   - Calendar
@@ -142,8 +142,8 @@ dockitems_to_persist:
   - name: Launchpad
     path: "/Applications/Launchpad.app"
     pos: 1
-  - name: Safari
-    path: /Applications/Safari.app
+  - name: Firefox
+    path: "/Applications/Firefox.app"
     pos: 2
   - name: iTerm
     path: /Applications/iTerm.app
@@ -158,7 +158,7 @@ dockitems_to_persist:
     path: "/Applications/OmniFocus.app"
     pos: 6
   - name: Messages
-    path: "/System/Applications/Messages.app"
+    path: /System/Applications/Messages.app
     pos: 7
   - name: Music
     path: /System/Applications/Music.app
