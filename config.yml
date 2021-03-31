@@ -79,6 +79,7 @@ homebrew_cask_apps:
   - datagrip
   - podcastmenu
   - ubersicht
+  - mountain
 
 homebrew_cask_uninstalled_apps:
   - launchbar
