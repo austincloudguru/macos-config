@@ -49,7 +49,6 @@ homebrew_cask_apps:
   - bartender
   - 1password-cli
   - microsoft-office
-  - freedom
   - textexpander
   - keyboard-maestro
   - toggl-track
@@ -80,10 +79,13 @@ homebrew_cask_apps:
   - podcastmenu
   - ubersicht
   - mountain
+  - microsoft-teams
+  - istat-menus
 
 homebrew_cask_uninstalled_apps:
   - launchbar
   - brave-browser
+  - visual-studio-code
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
