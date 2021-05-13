@@ -9,7 +9,7 @@ homebrew_taps:
 homebrew_installed_packages:
   - python3
   - dockutil
-  - gpg
+  - gnupg@2.2
   - pinentry-mac
   - tmux
   - saml2aws
@@ -80,7 +80,8 @@ homebrew_cask_apps:
   - ubersicht
   - mountain
   - microsoft-teams
-  - istat-menus
+  - virtual-studio-code
+  - obsidian
 
 homebrew_cask_uninstalled_apps:
   - launchbar
