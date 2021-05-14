@@ -80,13 +80,13 @@ homebrew_cask_apps:
   - ubersicht
   - mountain
   - microsoft-teams
-  - virtual-studio-code
+  - visual-studio-code
   - obsidian
+  - amazon-workspaces
 
 homebrew_cask_uninstalled_apps:
   - launchbar
   - brave-browser
-  - visual-studio-code
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
