@@ -9,7 +9,7 @@ homebrew_taps:
 homebrew_installed_packages:
   - python3
   - dockutil
-  - gnupg@2.2
+  - gnupg
   - pinentry-mac
   - tmux
   - saml2aws
