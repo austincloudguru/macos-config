@@ -44,6 +44,7 @@ homebrew_cask_apps:
   - iterm2
   - 1password
   - omnifocus
+  - hook
   - dropbox
   - boxcryptor
   - bartender
@@ -115,6 +116,7 @@ mas_installed_apps:
   - { id: 1354318707, name: "Core Tunnel" }
   - { id: 1290358394, name: "Cardhop" }
   - { id: 1481302432, name: "Instapaper Save" }
+  - { id: 1425368544, name: "Timery" }
   - { id: 497799835, name: "Xcode" }
 
 
