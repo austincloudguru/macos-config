@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - go
   - aws-iam-authenticator
   - groovy
+  - gh
 
 
 homebrew_cask_apps:
@@ -157,8 +158,8 @@ dockitems_to_persist:
   - name: Drafts
     path: "/Applications/Drafts.app"
     pos: 4
-  - name: DEVONthink 3
-    path: "/Applications/DEVONthink 3.app"
+  - name: Obsidian
+    path: "/Applications/Obsidian.app"
     pos: 5
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
