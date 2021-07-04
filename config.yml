@@ -85,6 +85,8 @@ homebrew_cask_apps:
   - visual-studio-code
   - obsidian
   - amazon-workspaces
+  - cheatsheet
+  - insomnia
 
 homebrew_cask_uninstalled_apps:
   - launchbar
