@@ -120,6 +120,7 @@ mas_installed_apps:
   - { id: 1290358394, name: "Cardhop" }
   - { id: 1481302432, name: "Instapaper Save" }
   - { id: 1425368544, name: "Timery" }
+  - { id: 419330170, Name: "Moom" }
   - { id: 497799835, name: "Xcode" }
 
 
