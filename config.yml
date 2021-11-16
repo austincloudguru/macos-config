@@ -41,29 +41,26 @@ homebrew_installed_packages:
 
 
 homebrew_cask_apps:
+  - dropbox
+  - 1password
   - alfred
   - iterm2
-  - 1password
   - omnifocus
   - hook
-  - dropbox
   - boxcryptor
   - bartender
   - 1password-cli
   - microsoft-office
   - textexpander
   - keyboard-maestro
-  - toggl-track
   - vlc
   - logos
-  - dash
   - parallels
   - devonthink
   - zoom
   - calibre
   - google-chrome
   - firefox
-  - protonmail-bridge
   - expressvpn
   - docker
   - numi
