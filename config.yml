@@ -7,13 +7,10 @@ homebrew_taps:
   - hashicorp/tap
 
 homebrew_installed_packages:
-  - python3
   - dockutil
   - gnupg
   - pinentry-mac
   - tmux
-  - saml2aws
-  - mosh
   - awscli
   - wget
   - jq
@@ -32,7 +29,6 @@ homebrew_installed_packages:
   - mp3splt
   - rbenv
   - openjdk
-  - gimme-aws-creds
   - node
   - go
   - aws-iam-authenticator
@@ -41,80 +37,41 @@ homebrew_installed_packages:
 
 
 homebrew_cask_apps:
-  - dropbox
   - 1password
   - alfred
   - iterm2
   - omnifocus
-  - hook
-  - boxcryptor
-  - bartender
-  - 1password-cli
-  - microsoft-office
+  - devonthink
+  - obsidian
   - textexpander
   - keyboard-maestro
-  - vlc
-  - logos
-  - parallels
-  - devonthink
-  - zoom
-  - calibre
-  - google-chrome
-  - firefox
-  - expressvpn
-  - docker
-  - numi
+  - boxcryptor
   - elgato-stream-deck
+  - visual-studio-code
+  - keybase
+  - parallels
+  - calibre
+  - vlc
+  - nordvpn
   - logitech-options
   - logitech-g-hub
-  - send-to-kindle
-  - ringcentral
   - sf-symbols
-  - scrivener
-  - datagrip
-  - appcode
-  - intellij-idea
-  - podcastmenu
-  - microsoft-teams
-  - visual-studio-code
-  - obsidian
-  - amazon-workspaces
-  - insomnia
-  - bettertouchtool
-  - keybase
-  - freedom
-
-homebrew_cask_uninstalled_apps:
-  - launchbar
-  - brave-browser
+  - idrive
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
+  - { id: 1425368544, name: "Timery" }
+  - { id: 1435957248, name: "Drafts" }
   - { id: 975937182, name: "Fantastical 2" }
   - { id: 803453959, name: "Slack" }
   - { id: 1295203466, name: "Remote Desktop 10" }
-  - { id: 1435957248, name: "Drafts" }
-  - { id: 1514795049, name: "OmSavee" }
-  - { id: 1439967473, name: "Okta Extension" }
   - { id: 1529448980, name: "Reeder 5" }
-  - { id: 967805235, name: "Paste - Clipboard Manager" }
-  - { id: 1055511498, name: "Day One" }  
-  - { id: 451907568, name: "Paprika Recipe Manager" }
-  - { id: 407963104, name: "Pixelmator" }
-  - { id: 905384638, name: "Filebot" }
-  - { id: 405399194, name: "Kindle" }
   - { id: 572491815, name: "Textastic" }
-  - { id: 1444383602, name: "GoodNotes" }
-  - { id: 1437130425, name: "Jolt of Caffeine" }
-  - { id: 1035237815, name: "Commander One Pro" }
-  - { id: 429449079, name: "Patterns" }
-  - { id: 890031187, name: "Marked 2" }
-  - { id: 1354318707, name: "Core Tunnel" }
-  - { id: 1290358394, name: "Cardhop" }
-  - { id: 1481302432, name: "Instapaper Save" }
-  - { id: 1425368544, name: "Timery" }
   - { id: 419330170, Name: "Moom" }
-  - { id: 497799835, name: "Xcode" }
+  - { id: 1354318707, name: "Core Tunnel" }
+  - { id: 1444383602, name: "GoodNotes" }
+  - { id: 1290358394, name: "Cardhop" }
+  #- { id: 497799835, name: "Xcode" }
 
 
 pip_items:
