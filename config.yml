@@ -35,6 +35,7 @@ homebrew_installed_packages:
   - go
   - groovy
   - gh
+  - checkov
 
 homebrew_cask_apps:
   - alfred
@@ -62,6 +63,12 @@ homebrew_cask_apps:
   - firefox
   - zoom
   - microsoft-teams
+  - docker
+  - 1password-cli
+  - hook
+  - logos
+  - discord
+  - freedom
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
@@ -76,6 +83,9 @@ mas_installed_apps:
   - { id: 1354318707, name: "Core Tunnel" }
   - { id: 1444383602, name: "GoodNotes" }
   - { id: 1290358394, name: "Cardhop" }
+  - { id: 1055511498, name: "Day One" }
+  - { id: 497799835, name: "XCode" }
+  - { id: 672401817, Name: "Strides" }
 
 pip_items:
   - virtualenvwrapper
@@ -93,14 +103,13 @@ dockitems_to_remove:
   - Reminders
   - Maps
   - Photos
-  - Messages
   - FaceTime
   - iBooks
   - Calendar
   - News
   - Podcasts
   - TV
-  - Safari
+    Safari
 
 dockitems_to_persist:
   - name: Launchpad
