@@ -69,6 +69,7 @@ homebrew_cask_apps:
   - logos
   - discord
   - freedom
+  - scrivener
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
