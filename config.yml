@@ -110,7 +110,7 @@ dockitems_to_remove:
   - News
   - Podcasts
   - TV
-    Safari
+  - Safari
 
 dockitems_to_persist:
   - name: Launchpad
@@ -140,7 +140,7 @@ dockitems_to_persist:
   - name: App Store
     path: "/Applications/App Store.app"
     pos: 9
-  - name: System Preferences
-    path: "/Applications/System Preferences.app"
+  - name: System Settings
+    path: "System/Applications/System Settings.app"
     pos: 10
 
