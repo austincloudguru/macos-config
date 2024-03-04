@@ -113,25 +113,31 @@ dockitems_to_persist:
     path: "/Applications/Launchpad.app"
     pos: 1
   - name: Safari
-    path: /Applications/Safari.app
+    path: "/Applications/Safari.app"
     pos: 2
   - name: iTerm
-    path: /Applications/iTerm.app
+    path: "/Applications/iTerm.app"
     pos: 3
+  - name: Drafts
+    path: "/Applications/Drafts.app"
+    pos: 4
+  - name: Obsidian
+    path: "/Applications/Obsidian.app"
+    pos: 5
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
-    pos: 4
-  - name: Messages
-    path: /System/Applications/Messages.app
-    pos: 5
-  - name: Music
-    path: /System/Applications/Music.app
     pos: 6
+  - name: Messages
+    path: "/System/Applications/Messages.app"
+    pos: 7
+  - name: Music
+    path: "/System/Applications/Music.app"
+    pos: 8
   - name: App Store
     path: "/Applications/App Store.app"
-    pos: 7
+    pos: 9
   - name: System Preferences
     path: "/Applications/System Preferences.app"
-    pos: 8
+    pos: 10
 
 #wallpaper_file: cross.jpg
