@@ -1,13 +1,11 @@
 homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
-  - homebrew/cask-drivers
   - versent/homebrew-taps
   - aws/tap
   - hashicorp/tap 
 
 homebrew_installed_packages:
   - python3
+  - virtualenvwrapper
   - dockutil
   - gpg
   - pinentry-mac
@@ -52,19 +50,18 @@ homebrew_cask_apps:
   - vlc
   - nordvpn
   - logitech-options
-  - logitech-g-hub
   - sf-symbols
-  - idrive
   - microsoft-office
   - google-chrome
   - firefox
   - zoom
   - docker
   - 1password-cli
-  - hook
+  - hookmark
   - logos
   - freedom
   - scrivener
+  - setapp
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
@@ -83,8 +80,7 @@ mas_installed_apps:
   - { id: 497799835, name: "XCode" }
   - { id: 672401817, Name: "Strides" }
 
-pip_items:
-  - virtualenvwrapper
+pip_items: []
 
 gem_items: []
 
@@ -136,8 +132,8 @@ dockitems_to_persist:
   - name: App Store
     path: "/Applications/App Store.app"
     pos: 9
-  - name: System Preferences
-    path: "/Applications/System Preferences.app"
+  - name: System Settings
+    path: "/System/Applications/System Settings.app"
     pos: 10
 
 #wallpaper_file: cross.jpg
