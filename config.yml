@@ -62,6 +62,7 @@ homebrew_cask_apps:
   - freedom
   - scrivener
   - setapp
+  - hazel
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
@@ -117,8 +118,8 @@ dockitems_to_persist:
   - name: Drafts
     path: "/Applications/Drafts.app"
     pos: 4
-  - name: Obsidian
-    path: "/Applications/Obsidian.app"
+  - name: "DEVONthink 3"
+    path: "/Applications/DEVONthink 3.app"
     pos: 5
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
