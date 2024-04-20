@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - go
   - groovy
   - checkov
+  - dnsmasq
 
 homebrew_cask_apps:
   - alfred
@@ -49,7 +50,7 @@ homebrew_cask_apps:
   - calibre
   - vlc
   - nordvpn
-  - logitech-options
+  - logi-options-plus
   - sf-symbols
   - microsoft-office
   - google-chrome
