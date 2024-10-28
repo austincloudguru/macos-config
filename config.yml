@@ -64,6 +64,8 @@ homebrew_cask_apps:
   - scrivener
   - setapp
   - hazel
+  - copilot-for-xcode
+  - discord
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
@@ -74,7 +76,7 @@ mas_installed_apps:
   - { id: 1295203466, name: "Remote Desktop 10" }
   - { id: 1529448980, name: "Reeder 5" }
   - { id: 572491815, name: "Textastic" }
-  - { id: 419330170, Name: "Moom" }
+  # - { id: 419330170, Name: "Moom" }
   - { id: 1354318707, name: "Core Tunnel" }
   - { id: 1444383602, name: "GoodNotes" }
   - { id: 1290358394, name: "Cardhop" }
@@ -119,8 +121,8 @@ dockitems_to_persist:
   - name: Drafts
     path: "/Applications/Drafts.app"
     pos: 4
-  - name: "DEVONthink 3"
-    path: "/Applications/DEVONthink 3.app"
+  - name: "Obsidian"
+    path: "/Applications/Obsidian.app"
     pos: 5
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
@@ -128,14 +130,8 @@ dockitems_to_persist:
   - name: Messages
     path: "/System/Applications/Messages.app"
     pos: 7
-  - name: Music
-    path: "/System/Applications/Music.app"
-    pos: 8
-  - name: App Store
-    path: "/Applications/App Store.app"
-    pos: 9
   - name: System Settings
     path: "/System/Applications/System Settings.app"
-    pos: 10
+    pos: 8 
 
 #wallpaper_file: cross.jpg
