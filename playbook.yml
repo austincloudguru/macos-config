@@ -6,6 +6,6 @@
     - config.yml
 
   roles:
-    - geerlingguy.homebrew
-    - geerlingguy.mas
+    - geerlingguy.mac.homebrew
+    - geerlingguy.mac.mas
     - localconfig
